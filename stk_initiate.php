@@ -1,5 +1,5 @@
 <?php
-//if(isset($_POST['submit'])){
+if(isset($_POST['submit'])){
 
 
   date_default_timezone_set('Africa/Nairobi');
@@ -86,5 +86,5 @@
   print_r($curl_response);
 
   echo $curl_response;
-//};
+};
 ?>
